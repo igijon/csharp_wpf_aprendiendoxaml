@@ -8,5 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <Button Click="Button_Click">Click Me!</Button>
+        <TextBlock Text="Captura alto:       xxxxx       "></TextBlock>
+        <TextBox>
+            <TextBox.Background>Red</TextBox.Background>
+        </TextBox>
     </StackPanel>
 </Window>
