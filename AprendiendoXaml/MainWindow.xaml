@@ -7,16 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <Button x:Name="MyButton" Content="Click Me" Background="Blue" Foreground="Red"></Button>
-        <Rectangle Width="200" Height="100">
-            <Rectangle.Fill>
-                <LinearGradientBrush>
-                    <LinearGradientBrush.GradientStops>
-                        <GradientStop Offset="0.0" Color="Red"/>
-                        <GradientStop Offset="1.0" Color="Blue"/>
-                    </LinearGradientBrush.GradientStops>
-                </LinearGradientBrush>
-            </Rectangle.Fill>
-        </Rectangle>
+        <Button x:Name="MyButton" Content="Click Me!"></Button>
+        <Button>
+            Click Me!
+        </Button>
+        <Button>
+            <Button.Content>
+              Click Me!
+            </Button.Content>
+        </Button>
+        <Border>
+            <Border.Child> <!--Esto no es necesario-->
+                <TextBox Width="300"></TextBox>
+            </Border.Child>
+        </Border>
+        <Button>
+            I am a
+            <Button.Background>Blue</Button.Background>
+        </Button>
     </StackPanel>
 </Window>
