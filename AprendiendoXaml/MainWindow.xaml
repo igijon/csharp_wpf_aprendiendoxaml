@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AprendiendoXaml"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="MyButton" Content="Click Me"></Button>
-    </Grid>
+    <StackPanel>
+        <Button x:Name="MyButton" Content="Click Me" Background="Blue" Foreground="Red"></Button>
+    </StackPanel>
 </Window>
