@@ -23,12 +23,11 @@ namespace AprendiendoXaml
         public MainWindow()
         {
             InitializeComponent();
-            MyButton.Click += MyButton_Click;
         }
 
-        private void MyButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello World");
+            MessageBox.Show("Hola Mundo!");
         }
     }
 }
