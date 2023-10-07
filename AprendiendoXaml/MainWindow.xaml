@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <Grid>
-        <local:ExampleType></local:ExampleType>
-    </Grid>
+    <StackPanel>
+        <StackPanel Button.Click="Button_Click">
+            <Button>Click Me1!</Button>
+            <Button>Click Me2!</Button>
+        </StackPanel>
+        <Button Click="Button_Click">Click Me!</Button>
+    </StackPanel>
 
 </Window>

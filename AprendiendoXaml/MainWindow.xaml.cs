@@ -26,8 +26,11 @@ namespace AprendiendoXaml
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+            //Los elementos enrutados permiten que un elemento maneje un evento que ha desencadenado otro elemento
+            //Sender es quien llamó el controlador
         {
-            MessageBox.Show("Hola Mundo!");
+            var buttonControl = (Button)e.Source;
+            buttonControl.Foreground = Brushes.Red;
         }
     }
 }
