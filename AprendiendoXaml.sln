@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendiendoXaml", "AprendiendoXaml\AprendiendoXaml.csproj", "{479A91C0-BE44-4D8C-86C8-589DC4ED3DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AprendiendoXaml", "AprendiendoXaml\AprendiendoXaml.csproj", "{479A91C0-BE44-4D8C-86C8-589DC4ED3DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resumen", "resumen\resumen.csproj", "{096D4CAC-7D99-4484-A7E3-CB4DFDE45346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{479A91C0-BE44-4D8C-86C8-589DC4ED3DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479A91C0-BE44-4D8C-86C8-589DC4ED3DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479A91C0-BE44-4D8C-86C8-589DC4ED3DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096D4CAC-7D99-4484-A7E3-CB4DFDE45346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096D4CAC-7D99-4484-A7E3-CB4DFDE45346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096D4CAC-7D99-4484-A7E3-CB4DFDE45346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096D4CAC-7D99-4484-A7E3-CB4DFDE45346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
