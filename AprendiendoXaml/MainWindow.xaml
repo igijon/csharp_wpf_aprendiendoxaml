@@ -7,12 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <StackPanel>
-        <StackPanel Button.Click="Button_Click">
-            <Button>Click Me1!</Button>
-            <Button>Click Me2!</Button>
-        </StackPanel>
-        <Button Click="Button_Click">Click Me!</Button>
+    <StackPanel Name="buttonContainer">
+        <Button Click="RemoveThis_Click">Click To Remove this button!</Button>
     </StackPanel>
 
 </Window>

@@ -25,12 +25,11 @@ namespace AprendiendoXaml
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-            //Los elementos enrutados permiten que un elemento maneje un evento que ha desencadenado otro elemento
-            //Sender es quien llamó el controlador
+        private void RemoveThis_Click(object sender, RoutedEventArgs e)
         {
-            var buttonControl = (Button)e.Source;
-            buttonControl.Foreground = Brushes.Red;
+            var element = (FrameworkElement)e.Source;
+            if(buttonContainer.Children.Contains(element)) 
+                buttonContainer.Children.Remove(element);
         }
     }
 }
