@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <StackPanel Name="buttonContainer">
-        <Button Click="RemoveThis_Click">Click To Remove this button!</Button>
-    </StackPanel>
+    <DockPanel>
+        <Button DockPanel.Dock="Left" Width="100" Height="20">I am on the left</Button>
+        <Button DockPanel.Dock="Right" Width="100" Height="20">I am on the right</Button>
+    </DockPanel>
 
 </Window>

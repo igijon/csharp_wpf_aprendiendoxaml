@@ -25,11 +25,6 @@ namespace AprendiendoXaml
             InitializeComponent();
         }
 
-        private void RemoveThis_Click(object sender, RoutedEventArgs e)
-        {
-            var element = (FrameworkElement)e.Source;
-            if(buttonContainer.Children.Contains(element)) 
-                buttonContainer.Children.Remove(element);
-        }
+        
     }
 }
