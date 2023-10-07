@@ -6,14 +6,9 @@
         xmlns:local="clr-namespace:AprendiendoXaml"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-   
-    <StackPanel>
-        <Button Margin="10,20,10,30" Content="Click Me!"></Button>
-        <Button Content="Click Me!">
-            <Button.Margin>
-                <Thickness Left="10" Top="20" Right="10" Bottom="30"/>
-            </Button.Margin>
-        </Button>
-    </StackPanel>
+
+    <Grid>
+        <local:ExampleType></local:ExampleType>
+    </Grid>
 
 </Window>
